@@ -56,7 +56,7 @@ The entire process is controlled by `run_pipeline.py`. You can specify the date 
 
 **Example Run:**
 ```bash
-python run_pipeline.py --start-date 2018-01-01 --end-date 2024-12-31 --ticker ^GSPC --clusters 4
+python run_pipeline.py
 ```
 
 **Arguments:**
