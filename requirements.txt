@@ -1,0 +1,12 @@
+pandas
+numpy
+requests
+python-dotenv
+yfinance
+scikit-learn
+matplotlib
+seaborn
+sentence-transformers
+tqdm
+jupyter
+tavily-python
