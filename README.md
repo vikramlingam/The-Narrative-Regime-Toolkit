@@ -72,7 +72,7 @@ python run_pipeline.py
 
 ## Code Explanation
 *   **`src/` Files**: Each file in `src/` is a module responsible for one part of the pipeline.
-    *   **Note on Dates**: You might see hardcoded dates (e.g., "2023-01-01") inside the `if __name__ == "__main__":` blocks of these files. These are **ONLY for testing** individual modules during development. They are **NOT** used when you run `run_pipeline.py`. The pipeline uses the dates you provide in the command line arguments.
+    *   **Note on Dates**: You might see hardcoded dates (e.g., "2025-11-24") inside the `if __name__ == "__main__":` blocks of these files. These are **ONLY for testing** individual modules during development. They are **NOT** used when you run `run_pipeline.py`. The pipeline uses the dates you provide in the command line arguments.
 *   **Validation Strategy**: The `regime_analysis.py` module implements a strict **time-series split** (training on the first 70% of data, testing on the last 30%) to evaluate if the identified regimes can predict whether future volatility (next 5 days) will be high. This ensures the results are robust and realistic.
 
 ## Visualizations
